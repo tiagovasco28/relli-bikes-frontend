@@ -1,0 +1,45 @@
+.card{
+    margin-top:150px;
+    width:auto;
+    display:flex;
+    justify-content: center;
+    gap:50px;
+  
+    .card-text{
+        margin-left:200px;
+
+        h1{
+            font-size:60px;
+            font-family:'Poppins Light', Arial, sans-serif;
+            margin-top:-30px;
+        }
+
+        p{
+            font-size:20px;
+            font-family:'Poppins Light', Arial, sans-serif;
+            width:450px;
+        }
+
+        a{
+            font-family:'Poppins Medium', Arial, sans-serif;
+            text-decoration: none;
+            font-size:20px;
+            color:black;
+        }
+
+        button{
+            background-color: transparent;
+            //border-color: transparent;
+            font-size: 20px;
+            width:50%;
+            height:10%;
+        }
+    }
+
+    img{
+        margin-right:100px;
+        margin-top:50px;
+        width:600px;
+        height:600px;
+    }
+}
