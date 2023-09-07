@@ -14,8 +14,9 @@ import { CardComponent } from './components/card/card.component';
 import { MapaComponent } from './components/mapa/mapa.component';
 // register Swiper custom elements
 register();
-// google maps
-import { AgmCoreModule } from '@agm/core';
+
+import { GoogleMapsModule } from '@angular/google-maps'
+
 
 @NgModule({
   declarations: [
@@ -30,9 +31,7 @@ import { AgmCoreModule } from '@agm/core';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    AgmCoreModule.forRoot({
-      apiKey: 'AIzaSyBhei1b6KPZhDIy5n1LQqvjQdS7Z4I63TY'
-    }),
+    GoogleMapsModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
