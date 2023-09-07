@@ -1,5 +1,7 @@
-import { Component, OnInit } from '@angular/core';
-import { AgmMap } from '@agm/core';
+import { Component, OnInit, ViewChild } from '@angular/core';
+import { MapInfoWindow, MapMarker } from '@angular/google-maps';
+import {} from 'googlemaps';
+
 
 
 @Component({
@@ -7,16 +9,17 @@ import { AgmMap } from '@agm/core';
   templateUrl: './mapa.component.html',
   styleUrls: ['./mapa.component.scss']
 })
-export class MapaComponent implements OnInit {
 
-  lat = 41.578159659693625;
-  lng = 2.003469122783097;
-  mapType: any = "satellite";
-  mapZoom = 17;
+export class MapaComponent implements OnInit {
+  
+
 
   constructor() { }
 
   ngOnInit(): void {
-  }
+
+}
+
+
 
 }
